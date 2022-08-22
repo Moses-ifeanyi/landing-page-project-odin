@@ -41,6 +41,7 @@ a{
     gap: 80px;
 }
 .logo{
+    /* display: flex; */
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -98,7 +99,7 @@ button{
     align-items: center;
     background-color: #3882f6;
     color: #f9faf8;
-    margin: 40px 300px;
+    margin: 70px 300px;
     padding: 40px;
 }
 .call{
@@ -109,4 +110,11 @@ button{
 .action-size{
     font-size: larger;
     font-weight: bolder;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #1f2937;
+    color: #f9faf8;
 }
