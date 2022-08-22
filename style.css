@@ -123,3 +123,6 @@ button{
     background-color: #1f2937;
     color: #f9faf8;
 }
+.parts:hover{
+    transform: scale(1.3);
+}
