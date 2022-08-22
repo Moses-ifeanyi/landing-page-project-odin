@@ -38,4 +38,24 @@ ul{
     height: 1px;
     border-radius: 50%;
 }
-
+button{
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 4px 4px 4px 4px;
+}
+.product-info{
+    text-align: center;
+    margin-top: 5rem;
+}
+.description{
+    margin-bottom: 32px;
+}
+.parts-description{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 52px;
+    justify-content: center;
+}
+.parts{
+    max-width: 100px;
+}
