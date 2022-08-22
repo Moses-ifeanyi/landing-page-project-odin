@@ -8,12 +8,14 @@ body{
 .header {
     padding: 8px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-left: 100px;
     margin-right: 100px;
 }
 ul{
     display: flex;
+    flex-wrap: wrap;
     gap: 8px;
     list-style: none;
     color:hsla(90, 17%, 98%, 0.868);
@@ -45,10 +47,12 @@ button{
 }
 .product-info{
     text-align: center;
-    margin-top: 5rem;
+    margin: 40px 50px 40px 50px;
 }
-.description{
+.descriptions{
     margin-bottom: 32px;
+    font-size: 38px;
+    color: #1f2937;
 }
 .parts-description{
     display: flex;
@@ -57,5 +61,26 @@ button{
     justify-content: center;
 }
 .parts{
-    max-width: 100px;
+    max-width: 200px;
+}
+.part-image{
+    width: 200px;
+    border-radius: 10px;
+}
+.quote-section{
+    background-color: #e5e7eb;
+    padding: 50px;
+    color: #1f2937;
+    font-size: 26px;
+    font-style:italic;
+}
+.quote{
+    display: flex;
+    justify-content: center;
+    margin:50px 100px 50px 100px;
+}
+.bus-quote{
+    display: flex;
+    justify-content:center;
+    margin-left: 350px;
 }
